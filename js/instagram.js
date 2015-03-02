@@ -130,7 +130,7 @@ var instagramFeed = Ractive.extend({
     this.data.lightbox = false;
     this.data.endOfFeed = false;
     this.data.postsPerPage = 6;
-    this.data.method = 'tags';
+    this.data.method = 'user';
     this.data.message = '';
 
 
